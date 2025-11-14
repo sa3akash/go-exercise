@@ -21,4 +21,10 @@ func main() {
 	} else {
 		fmt.Println("Grade: F")
 	}
+
+	role := "admin"
+	if role == "admin" {
+		fmt.Println("Welcome, Admin!")
+	}
+
 }
