@@ -34,8 +34,8 @@ func main() {
 	}
 
 	// Checking existence
-	if val, ok := newMap["gamma"]; ok {
-		fmt.Println("gamma exists with value:", val)
+	if val, ook := newMap["gamma"]; ook {
+		fmt.Println("gamma exists with value:", val, ook)
 	}
 
 }
